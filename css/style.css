@@ -45,9 +45,9 @@ a {
     color: var(--primary-color);
 }
 
-a:visited {
-    color: var(--primary-color);
-}
+/*a:visited {
+    color: var(--white);
+}*/
 
 a:hover, a:focus {
     text-decoration:none;
