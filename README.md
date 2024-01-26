@@ -1,16 +1,24 @@
-#PokeDex
+#Portfolio-Website
+This is my Portfolio Website, built with HTML, CSS and Vite.
 
-##Project Description
-An application created by using Javascript rendering pokemon from an API. Then adding HTML and CSS to make the app look better. This app also using bootstrap as well.
+##Prerequisites
+Install Node.js
 
-##How the Project runs
-Project runs through the API link which shows the details of the pokemon
+##Installation
+1.Clone the repository.
+2.Navigate to the project directory in the terminal.
+3.Run npm install to install the necessary dependencies.
 
-##API link
-https://pokeapi.co/api/v2/pokemon/?limit=150
+#Technologies Used
+- HTML
+- CSS
+- Vite
 
-##Codes
-HTML, CSS, JAVASCRIPT, JQUERY
+##Development server
+Run npm run dev for a dev server. Navigate to http://localhost:5173/portfolio-website/. The application will automatically reload if you change any of the source files.
 
-##Library
-Bootstrap
+##Build
+Run npm run build to build the project. The build artifacts will be stored in the dist/ directory. Run npm run preview to see the built files.
+
+##Deploying
+Run npm run deploy for deploying on GitHub Pages.
