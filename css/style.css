@@ -141,7 +141,7 @@ a:active {
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
 .grid-item:last-child {
@@ -152,8 +152,10 @@ a:active {
 }
 
 .grid-item {
-    display: inline-block;
-    width: 33%;
+    background-color: var(--grid-item-color);
+    padding: 14px;
+    border-radius: 18px;
+    box-shadow: 1px 1px 7px rgba(0,0,0,0.1);
 }
 
 @supports (display: grid) {
@@ -265,4 +267,8 @@ button:focus,
     h1 {
         font-size: 22px;
     }
+}
+
+.work {
+    max-width: 1024px;
 }
